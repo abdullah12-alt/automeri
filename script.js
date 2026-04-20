@@ -105,7 +105,7 @@ function renderTestimonials(data) {
                 <div class="stat-card" style="text-align: left; padding: 40px;" data-aos="fade-up">
                     <p style="font-style: italic; margin-bottom: 24px;">"${test.quote}"</p>
                     <div style="display: flex; align-items: center; gap: 16px;">
-                        <img src="${test.avatar}" style="width: 50px; height: 50px; border-radius: 50%;">
+                        ${test.avatar ? `<img src="${test.avatar}" style="width: 50px; height: 50px; border-radius: 50%;">` : ''}
                         <div>
                             <h4 style="margin: 0;">${test.name}</h4>
                             <small style="color: var(--text-muted)">${test.position}</small>

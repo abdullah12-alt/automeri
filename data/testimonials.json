@@ -3,12 +3,30 @@
         "name": "Alex Rivers",
         "position": "Managing Director, Digital Marketing Agency",
         "quote": "The AI automation system Automeri built has completely changed how we operate. Reports that used to take 3 hours per client now generate in 4 minutes. Our team focuses on strategy now — exactly what we should be doing.",
-        "avatar": "https://i.pravatar.cc/150?u=alex"
+        "avatar": ""
     },
     {
         "name": "Sarah Chen",
         "position": "CEO, TechStart Inc.",
         "quote": "Automeri didn't just build a website; they built a growth engine. Our conversion rates are up 40% since the launch.",
-        "avatar": "https://i.pravatar.cc/150?u=sarah"
+        "avatar": ""
+    },
+    {
+        "name": "David Miller",
+        "position": "Global Operations, LogiCorp",
+        "quote": "The performance optimization they performed on our infrastructure was night and day. Page speeds dropped from 4s to sub-1s globally.",
+        "avatar": ""
+    },
+    {
+        "name": "Elena Rodriguez",
+        "position": "Founder, RetailCo",
+        "quote": "Incredible attention to detail. The UI/UX redesign is not just beautiful, it's functional and converted our visitors into customers immediately.",
+        "avatar": ""
+    },
+    {
+        "name": "Michael Thorne",
+        "position": "CTO, FinTech Solutions",
+        "quote": "Working with Automeri on our AI integration was the best decision we made this year. They simplified complex technical challenges.",
+        "avatar": ""
     }
 ]
