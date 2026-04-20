@@ -1,0 +1,18 @@
+[
+    {
+        "question": "What services does Automeri provide?",
+        "answer": "We specialize in performance optimization, custom web development, high-end UI/UX design, and bespoke AI automation solutions for businesses looking to scale."
+    },
+    {
+        "question": "How long does a typical project take?",
+        "answer": "Project timelines vary based on complexity. A standard performance audit can take 1 week, while full-scale web applications typically range from 6 to 12 weeks."
+    },
+    {
+        "question": "Can you automate my existing business workflows?",
+        "answer": "Absolutely. We analyze your current processes and build custom AI-driven automation tools that integrate seamlessly into your existing stack."
+    },
+    {
+        "question": "What technologies do you use?",
+        "answer": "We use cutting-edge, industry-standard technologies like React, Next.js, Three.js, Node.js, and advanced LLM frameworks for AI solutions."
+    }
+]

@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Automeri | Think. Build. Automate.</title>
+    <meta name="description" content="Automeri is a premium software agency specializing in web development, AI automation, and high-energy digital innovation.">
+    
+    <!-- CSS Dependencies -->
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- JS Dependencies (CDNs) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+</head>
+<body>
+    <!-- Preloader -->
+    <div id="loader" class="loader-wrapper">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Background Canvas -->
+    <canvas id="hero-canvas"></canvas>
+
+    <!-- Navigation -->
+    <nav id="main-nav" class="nav-container">
+        <div class="nav-content">
+            <a href="#home" class="logo-wrapper">
+                <img src="assets/logo/logo.png" alt="Automeri Logo" class="brand-logo">
+                <span class="brand-name">Automeri</span>
+            </a>
+            
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#case-studies">Case Studies</a></li>
+                <li><a href="#projects">Work</a></li>
+                <li><a href="#process">Process</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li class="mobile-only"><a href="#contact" class="btn btn-primary" style="width: 100%; justify-content: center; margin-top: 20px;">Start a Project</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <a href="#contact" class="btn btn-primary">Start a Project</a>
+                <button id="mobile-toggle" class="mobile-toggle">
+                    <i data-lucide="menu"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero-section">
+            <div class="container container-hero">
+                <div class="hero-content" data-aos="fade-up">
+                    <div class="badge">Automate Smarter. Grow Faster.</div>
+                    <h1 class="hero-title">Think. Build. <span class="gradient-text">Automate.</span></h1>
+                    <p class="hero-subtitle">We build the engines that drive digital growth. We partner with ambitious brands to create high-performing systems that turn visitors into loyal customers.</p>
+                    <div class="hero-btns">
+                        <a href="#contact" class="btn btn-lg btn-primary">Get Started <i data-lucide="arrow-right"></i></a>
+                        <a href="#projects" class="btn btn-lg btn-outline">Explore Work</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Stats Section -->
+        <section id="stats" class="stats-section">
+            <div class="container">
+                <div id="stats-container" class="stats-grid">
+                    <!-- Dynamic Stats -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="section">
+            <div class="container">
+                <div class="section-header" data-aos="fade-right">
+                    <h2 class="section-title">Our <span class="gradient-text">Expertise</span></h2>
+                    <p class="section-desc">From concept to launch, we provide end-to-end solutions that drive real results.</p>
+                </div>
+                <div id="services-container" class="services-grid">
+                    <!-- Dynamic Services -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Technologies Section -->
+        <section id="technologies" class="section bg-alt">
+            <div class="container text-center">
+                <div class="section-header" data-aos="fade-right">
+                    <h2 class="section-title">Our <span class="gradient-text">Expertise</span></h2>
+                    <p class="section-desc">From concept to launch, we leverage cutting-edge technologies to drive real results.</p>
+                </div>
+                <div id="tech-container" class="tech-marquee">
+                    <!-- Dynamic Technologies -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section bg-alt">
+            <div class="container">
+                <div class="section-header text-center" data-aos="fade-up">
+                    <h2 class="section-title">Featured <span class="gradient-text">Work</span></h2>
+                    <p class="section-desc">Real results for real businesses.</p>
+                </div>
+                <div id="projects-container" class="projects-grid">
+                    <!-- Dynamic Projects -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Case Studies Section -->
+        <section id="case-studies" class="section">
+            <div class="container">
+                <div class="section-header" data-aos="fade-right">
+                    <h2 class="section-title">Deep <span class="gradient-text">Case Studies</span></h2>
+                    <p class="section-desc">How we solve complex problems with elegant solutions.</p>
+                </div>
+                <div id="case-studies-container" class="case-studies-list">
+                    <!-- Dynamic Case Studies -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Process Section -->
+        <section id="process" class="section">
+            <div class="container">
+                <div class="section-header text-center" data-aos="fade-up">
+                    <h2 class="section-title">A Proven <span class="gradient-text">Methodology</span></h2>
+                    <p class="section-desc">How we ensure exceptional results every time.</p>
+                </div>
+                <div class="process-timeline">
+                    <div class="process-step" data-aos="fade-up" data-aos-delay="100">
+                        <div class="step-num">01</div>
+                        <h3>Discovery</h3>
+                        <p>We dive deep into your business goals and user needs to chart the perfect course.</p>
+                    </div>
+                    <div class="process-step" data-aos="fade-up" data-aos-delay="200">
+                        <div class="step-num">02</div>
+                        <h3>Strategy</h3>
+                        <p>Detailed roadmapping of technologies and workflows tailored to your scale.</p>
+                    </div>
+                    <div class="process-step" data-aos="fade-up" data-aos-delay="300">
+                        <div class="step-num">03</div>
+                        <h3>Design & Build</h3>
+                        <p>Where vision meets reality. Rapid iterative development with a focus on UX.</p>
+                    </div>
+                    <div class="process-step" data-aos="fade-up" data-aos-delay="400">
+                        <div class="step-num">04</div>
+                        <h3>Launch & Scale</h3>
+                        <p>Smooth deployment followed by continuous optimization and support.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials -->
+        <section id="testimonials" class="section bg-alt">
+            <div class="container">
+                <div class="section-header" data-aos="fade-right">
+                    <h2 class="section-title">Client <span class="gradient-text">Voices</span></h2>
+                </div>
+                <div id="testimonials-container" class="testimonials-slider">
+                    <!-- Dynamic Testimonials -->
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section id="faq" class="section">
+            <div class="container">
+                <div class="section-header" data-aos="fade-right">
+                    <h2 class="section-title">Common <span class="gradient-text">Questions</span></h2>
+                </div>
+                <div id="faq-container" class="faq-list">
+                    <!-- Dynamic FAQ -->
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section id="contact" class="cta-section">
+            <div class="container">
+                <div class="cta-card" data-aos="zoom-in">
+                    <h2>Ready to Build Something <span class="gradient-text">Great?</span></h2>
+                    <p>Let's create a digital experience that sets you apart from the competition.</p>
+                    <div class="cta-btns">
+                        <a href="mailto:hello@automeri.online" class="btn btn-lg btn-primary">Schedule a Call</a>
+                        <a href="#" class="btn btn-lg btn-outline">View Case Studies</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#" class="logo-wrapper">
+                        <img src="assets/logo/logo.png" alt="Automeri" class="brand-logo">
+                        <span class="brand-name">Automeri</span>
+                    </a>
+                    <p>Think. Build. Automate. Transforming ambitious brands through high-performing systems.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Navigate</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#projects">Work</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Reach Out</h4>
+                    <p>hello@automeri.online</p>
+                    <p>Managed globally, built locally.</p>
+                    <div class="social-links">
+                        <a href="#"><i data-lucide="linkedin"></i></a>
+                        <a href="#"><i data-lucide="twitter"></i></a>
+                        <a href="#"><i data-lucide="github"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Automeri. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Core App JS -->
+    <script src="script.js"></script>
+</body>
+</html>

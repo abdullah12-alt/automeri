@@ -1,0 +1,19 @@
+[
+    {"name": "Django", "category": "Backend", "slug": "django", "level": "Expert"},
+    {"name": "LangChain", "category": "AI/LLM", "slug": "openai", "level": "Advanced"},
+    {"name": "Flask", "category": "Backend", "slug": "flask", "level": "Expert"},
+    {"name": "FastAPI", "category": "Backend", "slug": "fastapi", "level": "Advanced"},
+    {"name": ".NET", "category": "Backend", "slug": "dotnet", "level": "Expert"},
+    {"name": "Node.js", "category": "Backend", "slug": "nodedotjs", "level": "Expert"},
+    {"name": "Express", "category": "Backend", "slug": "express", "level": "Advanced"},
+    {"name": "Angular", "category": "Frontend", "slug": "angular", "level": "Intermediate"},
+    {"name": "PHP", "category": "Backend", "slug": "php", "level": "Expert"},
+    {"name": "React", "category": "Frontend", "slug": "react", "level": "Expert"},
+    {"name": "Next.js", "category": "Frontend", "slug": "nextdotjs", "level": "Advanced"},
+    {"name": "Three.js", "category": "3D/Creative", "slug": "threedotjs", "level": "Intermediate"},
+    {"name": "LLMs", "category": "AI/LLM", "slug": "openai", "level": "Advanced"},
+    {"name": "AI", "category": "AI/LLM", "slug": "googlecloud", "level": "Expert"},
+    {"name": "AWS", "category": "Cloud", "slug": "amazonaws", "level": "Expert"},
+    {"name": "Azure", "category": "Cloud", "slug": "microsoftazure", "level": "Advanced"},
+    {"name": "GCP", "category": "Cloud", "slug": "googlecloud", "level": "Intermediate"}
+]

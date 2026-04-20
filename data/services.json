@@ -1,0 +1,30 @@
+[
+    {
+        "id": "perf",
+        "title": "Performance Optimization",
+        "description": "Lightning-fast websites optimized for speed, SEO, and superior user experience.",
+        "icon": "zap",
+        "features": ["Speed Audits", "Core Web Vitals", "Image Optimization"]
+    },
+    {
+        "id": "web",
+        "title": "Web Development",
+        "description": "Custom websites and robust web applications built with modern, scalable technologies.",
+        "icon": "code",
+        "features": ["React/Next.js", "Clean Code", "API Integration"]
+    },
+    {
+        "id": "design",
+        "title": "UI/UX Design",
+        "description": "Beautiful, intuitive interfaces designed to engage users and drive conversions.",
+        "icon": "palette",
+        "features": ["User Research", "Wireframing", "Interactive Prototypes"]
+    },
+    {
+        "id": "auto",
+        "title": "AI & Automation",
+        "description": "Custom AI solutions that automate repetitive tasks and skyrocket efficiency.",
+        "icon": "cpu",
+        "features": ["Workflow Automation", "AI Integration", "Custom LLMs"]
+    }
+]

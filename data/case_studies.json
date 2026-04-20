@@ -1,0 +1,28 @@
+[
+    {
+        "id": "ai-automation",
+        "title": "AI-Powered Reporting Engine",
+        "client": "Apex Marketing",
+        "challenge": "Client reports were taking 3+ hours per month per client, bottlenecking growth.",
+        "solution": "Built a custom LLM-integrated engine that automatically gathers data and generates strategic insights.",
+        "results": [
+            {"label": "Time Reduction", "value": "95%"},
+            {"label": "Report Generation", "value": "4 mins"},
+            {"label": "Revenue Growth", "value": "+25%"}
+        ],
+        "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=800"
+    },
+    {
+        "id": "enterprise-scale",
+        "title": "Global Digital Infrastructure",
+        "client": "LogiCorp Global",
+        "challenge": "Legacy systems were causing significant downtime and slow page speeds across 50+ regions.",
+        "solution": "Architected a headless CMS with an edge-cached CDN strategy and performance-first frontend.",
+        "results": [
+            {"label": "Page Load", "value": "0.8s"},
+            {"label": "Conversion Lift", "value": "40%"},
+            {"label": "Uptime", "value": "99.99%"}
+        ],
+        "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80&w=800"
+    }
+]

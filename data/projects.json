@@ -1,0 +1,20 @@
+[
+    {
+        "title": "RetailCo E-commerce",
+        "category": "E-commerce Optimization",
+        "image": "https://images.unsplash.com/photo-1557821552-17105176677c?auto=format&fit=crop&q=80&w=800",
+        "description": "Revolutionizing online retail through AI-driven conversion optimization."
+    },
+    {
+        "title": "TechStart SaaS",
+        "category": "Web Application",
+        "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=800",
+        "description": "A scalable platform redesign for a fast-growing tech startup."
+    },
+    {
+        "title": "GlobalBrand Transformation",
+        "category": "Digital Strategy",
+        "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80&w=800",
+        "description": "Complete digital overhaul for a multinational enterprise."
+    }
+]

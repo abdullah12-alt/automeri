@@ -1,0 +1,22 @@
+[
+    {
+        "label": "Time Saved on Reports",
+        "value": "60%",
+        "icon": "clock"
+    },
+    {
+        "label": "Saved Per Client / Month",
+        "value": "3hrs",
+        "icon": "user-check"
+    },
+    {
+        "label": "More Clients Handled",
+        "value": "25%",
+        "icon": "trending-up"
+    },
+    {
+        "label": "Client Satisfaction",
+        "value": "4.9/5",
+        "icon": "star"
+    }
+]
